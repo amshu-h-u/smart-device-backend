@@ -33,7 +33,7 @@ app.use(express.json({ limit: "40kb" }));
 app.use(express.urlencoded({ limit: "40kb", extended: true }));
 app.use("/api/v1/users",userRoutes)
 app.use("/api/v2/devices", deviceRoutes);
-app.use('/api/v3/data', logRoutes);
+app.use('/api/v3', logRoutes);
 
 app.listen(8000,()=>{
     console.log("Server is listening on port 8000")
