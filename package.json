@@ -1,0 +1,23 @@
+{
+  "name": "smartdevice",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon SmartDevice/app.js",
+    "start": "node SmartDevice/app.js",
+    "prod": "pm2 SmartDevice/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "http-status": "^2.1.0",
+    "joi": "^18.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1"
+  }
+}
