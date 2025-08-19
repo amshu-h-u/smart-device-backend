@@ -1,5 +1,6 @@
 import Log from '../models/data.models.js';
 import Device from '../../deviceManagement/models/device.model.js';
+import mongoose from 'mongoose';
 
 // POST /devices/:id/logs
 export const createLog = async (req, res) => {
